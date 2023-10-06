@@ -2,10 +2,7 @@ import streamlit as st
 
 def find_largest_number(num1, num2, num3):
     return max(num1, num2, num3)
-
-def vasi():
-    print("Good Boy")
-
+    
 def main():
     st.title("Find the Largest Number")
     
